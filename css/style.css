@@ -584,6 +584,14 @@ body {
   .line {
     margin-top: 30px;
   }
+
+  .main__body {
+    padding-top: 100px;
+  }
+
+  .main__scroll-down {
+    bottom: 80px;
+  }
 }
 
 @media (max-width: 360px) {
