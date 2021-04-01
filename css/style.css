@@ -586,11 +586,11 @@ body {
   }
 
   .main__body {
-    padding-top: 100px;
+    padding-top: 35%;
   }
 
   .main__scroll-down {
-    bottom: 120px;
+    bottom: 12%;
   }
 }
 
