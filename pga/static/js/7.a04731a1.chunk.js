@@ -1,0 +1,2 @@
+(this["webpackJsonppga-next"]=this["webpackJsonppga-next"]||[]).push([[7],{122:function(e,t,c){"use strict";c.r(t);var s=c(57),n=c(1),a=c(33),r=c(32),i=c(0);t.default=function(){var e=Object(s.a)().t,t=Object(n.useContext)(a.a);return Object(n.useEffect)((function(){t(4)}),[]),Object(i.jsx)(i.Fragment,{children:Object(i.jsxs)(r.a,{children:[Object(i.jsx)("div",{className:"test",children:Object(i.jsx)("h1",{children:e("header.tubes")})})," "]})})}}}]);
+//# sourceMappingURL=7.a04731a1.chunk.js.map
