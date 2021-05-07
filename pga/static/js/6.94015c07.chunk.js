@@ -1,2 +1,0 @@
-(this["webpackJsonppga-next"]=this["webpackJsonppga-next"]||[]).push([[6],{121:function(t,e,s){"use strict";s.r(e);var n=s(0);e.default=function(){return Object(n.jsxs)(n.Fragment,{children:[Object(n.jsx)("div",{style:{height:"90vh"},className:"test",children:Object(n.jsx)("h1",{children:"404 - Not Found"})})," "]})}}}]);
-//# sourceMappingURL=6.94015c07.chunk.js.map
