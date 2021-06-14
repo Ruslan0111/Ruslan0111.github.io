@@ -311,6 +311,11 @@ body {
   line-height: 150%;
 }
 
+.projects__card-technology {
+  font-family: 'Sen-Bold';
+  color: #fff !important;
+}
+
 .project__card-coming {
   display: flex;
   height: 260px;
