@@ -6,21 +6,29 @@ var swiper = new Swiper('.swiper-container', {
   navigation: {
     nextEl: '.button-next',
     prevEl: '.button-prev',
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1
+    },
+    1000: {
+      slidesPerView: 3
+    }
   }
 });
 
 swiper.slideNext();
 // !Swiper
 
-document.querySelector('.message-icon').addEventListener('click', () => {
-  document.querySelector('.message').classList.add('active');
-  document.querySelector('.consultant').classList.add('active');
-});
+// document.querySelector('.message-icon').addEventListener('click', () => {
+//   document.querySelector('.message').classList.add('active');
+//   document.querySelector('.consultant').classList.add('active');
+// });
 
-document.querySelector('.message .close').addEventListener('click', () => {
-  document.querySelector('.message').classList.remove('active');
-  document.querySelector('.consultant').classList.remove('active');
-});
+// document.querySelector('.message .close').addEventListener('click', () => {
+//   document.querySelector('.message').classList.remove('active');
+//   document.querySelector('.consultant').classList.remove('active');
+// });
 
 
 // 2. This code loads the IFrame Player API code asynchronously.
