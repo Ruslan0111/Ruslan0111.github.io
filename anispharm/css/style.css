@@ -1200,11 +1200,11 @@ a {
     padding-left: 20px;
   }
   .trigger {
-    padding: 50px 0
+    padding: 25px 0
   }
   .trigger p {
-    font-size: 33px;
-    line-height: 45px;
+    font-size: 25px;
+    line-height: 35px;
   }
   .page__title {
     font-size: 53px;
@@ -1310,11 +1310,12 @@ a {
   .page__content-item {
     width: 100%;
     padding-left: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .bottom__arrow {
-    width: 85px;
-    height: 85px;
+    width: 60px;
+    height: 60px;
+    bottom: -6px
   }
   .advice__title {
     font-size: 25px;
