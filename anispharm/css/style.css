@@ -114,21 +114,24 @@ a {
   align-items: center;
   z-index: 30;
 }
-.consultant.active {
+/*.consultant.active {
   transform: translateY(14px);
-}
+}*/
 
 .message {
   position: relative;
-  display: none; /* flex */
+  display: flex;
   align-items: center;
   border: 1px solid #1BAC5E;
   background-color: #fff;
   border-radius: 20px;
   padding: 20px 40px;
+  transform: scale(0);
+  transition: all 0.5s ease;
 }
 .message.active {
-  display: flex;
+  /*display: flex;*/
+  transform: scale(1.0);
 }
 
 .close {
@@ -1268,7 +1271,7 @@ a {
   }
   .consultant {
     right: 20px;
-    bottom: 20px;
+    bottom: 35px;
   }
   .message-icon {
     padding: 20px;
