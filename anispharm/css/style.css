@@ -1558,6 +1558,8 @@ a {
   }
   .main-page__btn-container {
     margin-left: 30px;
+  }
+  .main-page .main-page__btn-container {
     width: 85%;
   }
   .main-page__btn {
