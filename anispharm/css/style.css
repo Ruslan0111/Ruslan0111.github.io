@@ -1266,7 +1266,16 @@ a {
   .footer__lists {
     width: 100%;
   }
-}
+  .consultant {
+    right: 20px;
+    bottom: 20px;
+  }
+  .message-icon {
+    padding: 20px;
+  }
+  .message {
+    padding: 10px;
+  }
 
 @media (max-width:  580px) {
   .header__body {
@@ -1401,6 +1410,18 @@ a {
   .footer__rights-left {
     font-size: 16px;
   }
+  .message-icon {
+    padding: 15px;
+  }
+  .consultant {
+    right: 10px;
+  }
+  .message img {
+    width: 28%
+  }
+  .message {
+    max-width: 230px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -1483,6 +1504,9 @@ a {
   }
   .footer__btn {
     margin: 30px 0 20px 0;
+  }
+  .message-icon {
+    margin-left: 10px
   }
 }
 
