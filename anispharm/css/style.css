@@ -66,12 +66,14 @@ a {
 }
 
 .header__tg,
+.header__tg-mobile,
 .header__phone {
   display: flex;
   align-items: center;
 }
 
-.header__tg {
+.header__tg,
+.header__tg-mobile {
   flex: 0 1 270px;
 }
 
@@ -81,16 +83,30 @@ a {
   margin-bottom: 30px;
 }
 
-.header__tg p {
+.header__tg p,
+.header__tg-mobile p {
   margin-left: 22px;
   font-family: 'Gilroy-SemiboldItalic';
   font-size: 14px;
   line-height: 17px;
 }
 
-.header__tg a {
+.header__tg a,
+.header__tg-mobile a {
   color: #3AACFF;
 }
+
+.header__tg-mobile {
+  display: none;
+  flex-basis: 236px;
+}
+.header__tg-mobile img {
+  width: 45px;
+}
+.header__tg-mobile p {
+  margin-left: 15px;
+}
+
 
 .header__phone span {
   display: block;
@@ -1329,6 +1345,8 @@ a {
   }
   .contact__img img {
     width: 60%;
+    position:  relative;
+    z-index: -1;
     margin: 0 auto;
   }
   .delivery {
@@ -1366,19 +1384,23 @@ a {
 
 @media (max-width:  580px) {
   .header__body {
-    justify-content: center
+    justify-content: center;
+    padding-top: 15px;
   }
   .header__logo {
-    flex-basis: 160px;
+    flex-basis: 100px;
   }
-  .header__title {
-    font-size: 20px;
-    line-height: 25px;
-    margin-left: 30px;
+  .header__title,
+  .header__tg,
+  .header__phone {
+    display: none;
   }
-  .header__phone p {
-    font-size: 30px;
-    line-height: 40px;
+  .header__tg-mobile {
+    display: flex;
+  }
+  .header__name {
+    margin-bottom: 20px;
+    justify-content: space-between
   }
   .main-page__text h1 {
     font-size: 38px;
@@ -1515,13 +1537,28 @@ a {
 }
 
 @media (max-width: 400px) {
+  .header__logo {
+    flex-basis: 90px;
+  }
+  .header__tg-mobile {
+    flex-basis: 170px;
+  }
+  .header__tg-mobile img {
+    width: 40px;
+  }
+  .header__tg-mobile p {
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 15px;
+  }
   .main-page__text li {
     margin-left: 0;
     font-size: 21px;
     line-height: 30px;
   }
   .main-page__btn-container {
-    margin-left: 30px
+    margin-left: 30px;
+    width: 85%;
   }
   .main-page__btn {
     padding: 22px 40px 17px 40px
