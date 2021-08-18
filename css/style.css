@@ -278,8 +278,13 @@ body {
   line-height: 66px;
 }
 
-.projects__card {
+.projects__left,
+.projects__right {
   width: calc(50% - 10px);
+}
+
+.projects__card {
+  margin-bottom: 20px;
 }
 
 .projects__card-inner {
@@ -318,7 +323,7 @@ body {
 
 .project__card-coming {
   display: flex;
-  height: 260px;
+  height: 240px;
   align-items: center;
   justify-content: center;
 }
@@ -436,9 +441,9 @@ body {
     flex-direction: column;
   }
 
-  .projects__card {
+  .projects__left,
+  .projects__right {
     width: 100%;
-    margin-bottom: 20px;
   }
 
   .projects__card-inner img {
