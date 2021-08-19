@@ -1,52 +1,46 @@
 @font-face {
-  font-family: 'Gilroy-Light';
-  src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
-    url('../fonts/Gilroy-Light.woff') format('woff');
+  font-family: 'Rota-Light';
+  src: url('../fonts/Rota-Light.otf') format('otf');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy-Regular';
-  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
-    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-family: 'Rota-Regular';
+  src: url('../fonts/Rota-Regular.otf') format('otf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy-MediumItalic';
-  src: url('../fonts/Gilroy-MediumItalic.woff2') format('woff2'),
-    url('../fonts/Gilroy-MediumItalic.woff') format('woff');
+  font-family: 'Rota-MediumItalic';
+  src: url('../fonts/Rota-MediumItalic.otf') format('otf');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy-SemiboldItalic';
-  src: url('../fonts/Gilroy-SemiboldItalic.woff2') format('woff2'),
-    url('../fonts/Gilroy-SemiboldItalic.woff') format('woff');
+  font-family: 'Rota-SemiboldItalic';
+  src: url('../fonts/Rota-SemiboldItalic.otf') format('otf');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy-Bold';
-  src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
-    url('../fonts/Gilroy-Bold.woff') format('woff');
+  font-family: 'Rota-Bold';
+  src: url('../fonts/Rota-Bold.otf') format('otf');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy-Extrabold';
-  src: url('../fonts/Gilroy-Extrabold.woff2') format('woff2'),
-    url('../fonts/Gilroy-Extrabold.woff') format('woff');
+  font-family: 'Rota-Extrabold';
+  src: url('../fonts/Rota-Extrabold.otf') format('otf');
   font-weight: 800;
   font-style: normal;
   font-display: swap;

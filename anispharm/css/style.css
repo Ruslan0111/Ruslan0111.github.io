@@ -11,7 +11,8 @@
 body {
   overflow-x: hidden;
   color: #1BAC5E;
-  font-family: 'Gilroy-Regular';
+  font-family: 'Rota-Regular';
+  font-weight: normal;
 }
 
 a {
@@ -51,7 +52,9 @@ a {
 }
 
 .header__title {
-  font-family: 'Gilroy-MediumItalic';
+  font-family: 'Rota-MediumItalic';
+  font-weight: 500;
+  font-style: italic;
   font-size: 24px;
   line-height: 28px;
   color: #263238;
@@ -86,7 +89,9 @@ a {
 .header__tg p,
 .header__tg-mobile p {
   margin-left: 22px;
-  font-family: 'Gilroy-SemiboldItalic';
+  font-family: 'Rota-SemiboldItalic';
+  font-weight: 600;
+  font-style: italic;
   font-size: 14px;
   line-height: 17px;
 }
@@ -110,14 +115,17 @@ a {
 
 .header__phone span {
   display: block;
-  font-family: 'Gilroy-MediumItalic';
+  font-family: 'Rota-MediumItalic';
+  font-weight: 500;
+  font-style: italic;
   font-size: 14px;
   line-height: 17px;
 }
 
 .header__phone p {
   margin-left: 23px;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 36px;
   line-height: 45px;
 }
@@ -197,7 +205,8 @@ a {
 .message__text {
   width: 220px;
   margin-left: 10px;
-  font-family: 'Gilroy-Light';
+  font-family: 'Rota-Light';
+  font-weight: 300;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
@@ -205,7 +214,8 @@ a {
 
 .message__text span {
   display: block;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 14px;
   line-height: 17px;
   color: #000;
@@ -253,7 +263,8 @@ a {
 
 .play-btn p {
   margin: 0 auto;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 18px;
   line-height: 22px;
 }
@@ -288,7 +299,8 @@ a {
 }
 
 .main-page__text h1 {
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 54px;
   line-height: 70px;
   letter-spacing: -0.05em;
@@ -302,7 +314,8 @@ a {
 
 .main-page__text li {
   margin-left: 30px;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 26px;
   line-height: 35px;
   color: #263238;
@@ -346,7 +359,8 @@ a {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
   font-size: 20px;
   background: linear-gradient(178.47deg, #42EA90 1.3%, #00DD66 1.31%, #1BAC5E 20.07%);
   border: 0.5px solid #0A552D;
@@ -372,7 +386,8 @@ a {
 .free {
   position: absolute;
   color: #2C2C2C;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 10px;
   line-height: 12px;
   padding: 5px 50px;
@@ -384,7 +399,8 @@ a {
 
 .main-page__btn span {
   display: block;
-  font-family: 'Gilroy-Regular';
+  font-family: 'Rota-Regular';
+  font-weight: normal;
   font-size: 13px;
   letter-spacing: -0.5px;
 }
@@ -404,7 +420,8 @@ a {
 .trigger p {
   text-align: center;
   color: #fff;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 48px;
   line-height: 60px;
   position: relative;
@@ -444,7 +461,8 @@ a {
 */
 .page__title {
   color: #000;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 64px;
   line-height: 80px;
   max-width: 800px;
@@ -484,7 +502,8 @@ a {
 }
 
 .page__content-item-list li span {
-  font-family: 'Gilroy-Light';
+  font-family: 'Rota-Light';
+  font-weight: 300;
   display: block;
   margin-left: -20px;
   text-indent: 20px;
@@ -502,7 +521,8 @@ a {
   border-radius: 7px;
   box-shadow: 0 5px 0 #C19922;
   margin-left: 50%;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 18px;
   line-height: 22px;
   text-transform: uppercase;
@@ -577,7 +597,8 @@ a {
 .advice__title {
   color: #fff;
   text-align: center;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 54px;
   line-height: 70px;
   margin-bottom: 30px;
@@ -700,12 +721,14 @@ a {
   margin-bottom: 30px;
   font-size: 25px;
   color: #000;
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
 }
 
 .sertificates__card-text p {
   color: rgba(0, 0, 0, 0.8);
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
   padding: 0 30px;
 }
 
@@ -718,7 +741,8 @@ a {
 
 .recomendations__title {
   text-align: center;
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 64px;
   line-height: 80px;
   color: #FFFFFF;
@@ -912,7 +936,8 @@ a {
 }
 
 .contact__form-title {
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
   margin-bottom: 35px;
   font-size: 36px;
   line-height: 100%;
@@ -930,7 +955,8 @@ a {
   display: block;
   width: 325px;
   padding: 20px 20px 20px 20px;
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
   font-size: 25px;
   outline: none;
   border: 3px solid #1BAC5E;
@@ -990,7 +1016,8 @@ a {
 }
 
 .delivery__title {
-  font-family: 'Gilroy-Extrabold';
+  font-family: 'Rota-Extrabold';
+  font-weight: 800;
   font-size: 48px;
   line-height: 50px;
   color: #23242A;
@@ -1010,7 +1037,8 @@ a {
   text-align: center;
   display: inline-block;
   text-transform: uppercase;
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
   font-size: 18px;
   line-height: 22px;
   background: linear-gradient(178.47deg, #42EA90 1.3%, #00DD66 1.31%, #1BAC5E 20.07%);
@@ -1068,13 +1096,15 @@ a {
 
 .footer__list li {
   font-size: 20px;
-  font-family: 'Gilroy-Light';
+  font-family: 'Rota-Light';
+  font-weight: 300;
   line-height: 30px;
 }
 
 .footer__list li:first-child h6{
   font-size: 28px;
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -1082,7 +1112,8 @@ a {
   background-color: #fff;
   color: #000;
   align-self: start;
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
   font-size: 24px;
   padding: 20px 35px;
   cursor: pointer;
@@ -1118,7 +1149,8 @@ a {
 }
 
 .footer__rights-left span {
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
 }
 
 .footer__rights-right {
@@ -1127,13 +1159,15 @@ a {
 }
 
 .footer__phone {
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
   font-size: 18px;
   margin-right: 20px;
 }
 
 .footer__rights-right p {
-  font-family: 'Gilroy-Bold';
+  font-family: 'Rota-Bold';
+  font-weight: bold;
   font-size: 18px;
 }
 
@@ -1297,7 +1331,7 @@ a {
     margin: 0 auto;
   }
   .page-section {
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .trigger {
     padding: 25px 0
