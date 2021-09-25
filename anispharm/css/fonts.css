@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Rota-Light';
+  src: url('../fonts/Rota-Light.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rota-Regular';
+  src: url('../fonts/Rota-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rota-MediumItalic';
+  src: url('../fonts/Rota-MediumItalic.otf') format('otf');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rota-SemiboldItalic';
+  src: url('../fonts/Rota-SemiboldItalic.otf') format('otf');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rota-Bold';
+  src: url('../fonts/Rota-Bold.otf') format('otf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rota-Extrabold';
+  src: url('../fonts/Rota-Extrabold.otf') format('otf');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
