@@ -178,7 +178,7 @@ body {
 }
 
 .header__list li {
-  padding: 32px 24px 28px 24px;
+  padding: 24px 24px 20px 24px;
   cursor: pointer;
   border-bottom: 4px solid transparent;
   transition: all 0.3s ease;
@@ -323,7 +323,7 @@ body {
 
 .project__card-coming {
   display: flex;
-  height: 240px;
+  height: 260px;
   align-items: center;
   justify-content: center;
 }
@@ -334,6 +334,7 @@ body {
   line-height: 150%;
   padding: 24px 32px;
   border: 1px solid #5221E6;
+  box-shadow: 0 0 30px #5221E6;
 }
 
 .footer {
