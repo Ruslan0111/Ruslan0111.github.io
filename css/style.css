@@ -285,6 +285,24 @@ body {
   margin-bottom: 20px;
 }
 
+.projects__card--hide {
+  display: none;
+}
+
+.projects__card--show {
+  animation: fade 1s ease 0s 1;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .projects__card-inner {
   display: block;
   background-color: #181823;
@@ -324,15 +342,35 @@ body {
   height: 260px;
   align-items: center;
   justify-content: center;
+  background-color: transparent;
+  width: 100%;
 }
 
-.project__card-coming p {
+.project__card-coming button {
   font-family: "Sen-Bold";
   font-size: 18px;
   line-height: 150%;
-  padding: 24px 32px;
+  height: 77px;
+  padding: 0px 32px;
   border: 1px solid #5221e6;
   box-shadow: 0 0 30px #5221e6;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  width: 180px;
+  text-align: center;
+}
+
+.project__card-coming button .loader {
+  display: none;
+}
+
+.project__card-coming button.loading p {
+  display: none;
+}
+
+.project__card-coming button.loading .loader {
+  display: block;
 }
 
 .footer {
@@ -447,6 +485,10 @@ body {
 
   .projects__card-inner img {
     width: 711px;
+  }
+
+  .projects__card--hide {
+    display: block;
   }
 
   .project__card-coming {

@@ -36,3 +36,20 @@ menuList.addEventListener("click", function (e) {
   document.querySelector(".header__menu").classList.toggle("active");
   document.querySelector("body").classList.toggle("lock");
 });
+
+const showMoreBtn = document.getElementById("show-more-btn");
+const btnWrapper = document.querySelector(".project__card-coming");
+const hiddenCards = document.querySelectorAll(".projects__card--hide");
+
+showMoreBtn.addEventListener("click", function () {
+  showMoreBtn.classList.add("loading");
+
+  setTimeout(() => {
+    hiddenCards.forEach((card) => {
+      card.classList.remove("projects__card--hide");
+      card.classList.add("projects__card--show");
+    });
+
+    btnWrapper.style.display = "none";
+  }, 1000);
+});
